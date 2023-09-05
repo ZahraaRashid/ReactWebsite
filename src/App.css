@@ -1,0 +1,182 @@
+/* App.css */
+.App, .App * {
+  box-sizing: border-box;
+  }
+.App {
+ background: #fdf1f1;
+  width: auto !important;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+ }
+.reader {
+  color: #000000;
+  text-align: left;
+  font: 700 20px/27.5px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 531.5px);
+  top: 34px;
+  width: 87px;
+  }
+ 
+.about {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/27.5px 'Roboto', sans-serif;
+  position: absolute;
+  left: calc(50% - -52.5px);
+  top: 34px;
+  width: 87px;
+  }
+ 
+.projects {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/27.5px 'Roboto', sans-serif;
+  position: absolute;
+  left: calc(50% - -188.5px);
+  top: 34px;
+  width: 87px;
+  }
+ 
+.contact {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/27.5px 'Roboto', sans-serif;
+  position: absolute;
+  left: calc(50% - -324.5px);
+  top: 34px;
+  width: 87px;
+  }
+ 
+.log-in {
+  color: #000000;
+  text-align: right;
+  font: 400 20px/27.5px 'Roboto', sans-serif;
+  position: absolute;
+  left: calc(50% - -446.5px);
+  top: 34px;
+  width: 87px;
+  }
+.title {
+  color: #100101;
+  text-align: center;
+  font: 800 36px/27.5px 'Roboto Flex', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 96.5px);
+  top: 135px;
+  width: 210px;
+  height: 46px;
+    }
+
+.text-area {
+  background: #d9d9d9;
+  border-radius: 35px;
+  width: 885px;
+  height: 367px;
+  position: absolute;
+  left: calc(50% - 441.5px);
+  top: 189px;
+    }
+.original-text {
+  color: #000000;
+  text-align: justified;
+  padding: 20px;
+  font: var(--bodytext, 400 20px/27.5px 'Roboto', sans-serif);
+  position: absolute;
+  left: calc(50% - 424.5px);
+  top: 207px;
+  width: 855px;
+  height: 330px;
+    }
+.start {
+  text-align: center;
+  font: 800 45px/27.5px 'Roboto Flex', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 258.5px);
+  top: 550px;
+      }
+     
+.stop {
+  text-align: center;
+  font: 800 45px/27.5px 'Roboto Flex', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 64.5px);
+  top: 550px;
+      }
+     
+.reset {
+  text-align: center;
+  font: 800 45px/27.5px 'Roboto Flex', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - -102.5px);
+  top: 550px;
+      }
+button {
+  padding: 15px 25px;
+  font-size: 35px;
+  background-color: #c95b11;
+  color: #fff;
+  border-radius: 242px;
+      }
+button:hover {
+  background-color: #0056b3;
+      }
+
+.highlighted-text {
+  background-color: yellow;
+}
+.results {
+  background: #d9d9d9;
+  width: 885px;
+  height: 227px;
+  position: absolute;
+  left: calc(50% - 441.5px);
+  top: 670px;
+ }
+
+.number-of-misreading-words {
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  font: 400 16px/31px 'Roboto', sans-serif;
+  left: 326px;
+  top: 686px;
+  width: auto !important;
+  height: 34px;
+ }
+ .total-time-of-reading {
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  font: 400 16px/31px 'Roboto', sans-serif;
+  left: 326px;
+  top: 749px;
+  width: auto !important;
+  height: 34px;
+  }
+  .Accuracy {
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  font: 400 16px/31px 'Roboto', sans-serif;
+  left: 326px;
+  top: 749px;
+  width: auto !important;
+  height: 34px;
+  }
+ .reading-speed {
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  font: 400 16px/31px 'Roboto', sans-serif;
+  left: 326px;
+  top: 749px;
+  width: auto !important;
+  height: 34px;
+ }
